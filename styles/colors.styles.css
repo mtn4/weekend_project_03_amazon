@@ -1,5 +1,6 @@
 :root {
+  --nav-text-color: white;
   --top-navbar-color: #131921;
-  --bottom-navbar-color: #232f3e;
-  --sub-navbar-color: #fafafa;
+  --sub-navbar-top-color: #232f3e;
+  --sub-navbar-bottom-color: #f7f8f8;
 }

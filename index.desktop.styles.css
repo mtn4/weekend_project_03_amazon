@@ -3,6 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
+
 body {
   width: 100%;
+  font-family: "Amazon Ember", arial, sans-serif;
 }
+.nav-arrow {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png");
+  background-position-x: 0px;
+  background-position-y: 1000px;
+  background-repeat: repeat-x;
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 4px;
+  border-top-color: rgb(167, 172, 178);
+  border-top-style: solid;
+  border-top-width: 4px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 0px;
+  height: 0px;
+  line-height: 0px;
+  margin: 0 0 2px 1px;
+  visibility: visible;
+  white-space: nowrap;
+  width: 0px;
+}
+/* main {
+  font-size: 30px;
+} */

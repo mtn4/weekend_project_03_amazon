@@ -1,0 +1,53 @@
+main {
+  width: 100%;
+}
+.main-top {
+  width: 100%;
+  margin-top: 8px;
+  height: 14px;
+  padding: 0 16px;
+  position: relative;
+}
+.main-top__categories {
+  margin: 0 auto;
+  padding: 0 16px;
+  min-width: 1000px;
+  max-width: 1500px;
+  color: rgb(86, 89, 89);
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 14px;
+}
+#ad-feedback-text-desktop-detail-ilm {
+  position: absolute;
+  right: 0;
+  color: rgb(85, 85, 85);
+  font-size: 11px;
+  line-height: 0px;
+}
+.main-top__categories ul {
+  list-style: none;
+  display: flex;
+  gap: 5.1px;
+}
+.dec:hover {
+  text-decoration: underline rgb(86, 89, 89) solid 1px;
+}
+.main-product-area {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1500px;
+  background-color: #fff;
+}
+.main-container {
+  min-width: 996px;
+  margin-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  display: flex;
+}
+#rightCol {
+  margin-left: 20px;
+  width: 244px;
+}
