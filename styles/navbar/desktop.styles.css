@@ -1,0 +1,10 @@
+.navbar .navbar__top-navbar {
+  height: 6rem;
+  width: 100%;
+  background-color: var(--top-navbar-color);
+}
+.navbar .navbar__bottom-navbar {
+  height: 3.9rem;
+  width: 100%;
+  background-color: var(--bottom-navbar-color);
+}

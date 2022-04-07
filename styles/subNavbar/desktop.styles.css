@@ -1,0 +1,7 @@
+.sub-navbar {
+  width: 100%;
+  height: 3.3rem;
+  background-color: var(--sub-navbar-color);
+  border-top: 1px solid rgba(0, 0, 0, 0.17);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

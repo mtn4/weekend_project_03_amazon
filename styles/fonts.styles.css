@@ -64,3 +64,11 @@
     url(https://m.media-amazon.com/images/S/sash/CjbL$jCCegyfqZ7.woff)
       format("woff");
 }
+
+:root {
+  --main-font-size: 1.4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
