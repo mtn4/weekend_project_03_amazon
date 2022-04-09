@@ -1,0 +1,174 @@
+footer {
+  margin: 14px auto;
+  max-width: 1464px;
+}
+
+footer hr {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat: repeat;
+  background-size: auto;
+  border-bottom-color: rgb(128, 128, 128);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(128, 128, 128);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(128, 128, 128);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(204, 204, 204);
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  clear: left;
+  color: rgb(128, 128, 128);
+  display: block;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  height: 44px;
+  line-height: 19px;
+  margin-bottom: -36px;
+  margin-top: 0px;
+}
+.frequently-bought-together h2 {
+  box-sizing: border-box;
+  color: rgb(204, 102, 0);
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 34px;
+  padding-bottom: 4px;
+  text-rendering: optimizelegibility;
+}
+.bought-together-container {
+  padding-left: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(86, 89, 89);
+  margin-bottom: 12px;
+}
+.together-price-cart {
+  align-self: flex-start;
+  line-height: 18px;
+  padding-left: 14px;
+}
+.plus {
+  transform: translateY(-3px);
+}
+.together-price-cart__total {
+  box-sizing: border-box;
+  color: rgb(86, 89, 89);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  visibility: visible;
+  padding-bottom: 2px;
+}
+.together-price-cart__total > span {
+  color: rgb(177, 39, 4);
+}
+#cart-button {
+  /* margin-top: 8px; */
+  /* margin-right: 7px; */
+  /* margin-bottom: 12px; */
+  /* padding: 5px 10.5px; */
+  padding: 0 6px 0 7px;
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: 1px solid #fcd200;
+  font-size: 11px;
+  line-height: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+}
+#cart-button:hover {
+  background-color: #f7ca00;
+}
+footer .a-checkbox {
+  overflow-wrap: break-word;
+}
+._p13n-desktop-sims-fbt_fbt-desktop_item-details-per-asin__3DtF1 {
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  display: flex;
+  flex-direction: row;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 0px;
+  overflow-wrap: break-word;
+  padding-bottom: 0px;
+  text-indent: 0px;
+}
+._p13n-desktop-sims-fbt_fbt-desktop_title-truncate__1pPAM {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-right: 4px;
+  max-width: 750px;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-indent: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+footer .a-size-base {
+  box-sizing: border-box;
+  color: rgb(177, 39, 4);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  overflow-wrap: break-word;
+  text-indent: 0px;
+}
+footer .a-size-mini {
+  box-sizing: border-box;
+  color: rgb(177, 39, 4);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  overflow-wrap: break-word;
+  text-indent: 0px;
+  white-space: nowrap;
+}
+footer .a-color-base {
+  color: rgb(15, 17, 17);
+}
+.margin-hr {
+  margin-bottom: 28px;
+}

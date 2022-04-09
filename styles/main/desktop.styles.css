@@ -217,7 +217,7 @@ main {
   font-size: 14px;
   height: 1px;
   line-height: 19px;
-  margin-bottom: 14px;
+  /* margin-bottom: 14px; */
   margin-top: 0px;
 }
 .best-seller-in {
@@ -248,6 +248,7 @@ main {
   text-rendering: optimizelegibility;
 }
 .price-count {
+  margin-top: 14px;
   margin-bottom: 8px;
 }
 .import-fees .a-color-secondary {
@@ -314,6 +315,191 @@ main {
   font-weight: 700;
   line-height: 20px;
 }
+.btn {
+  margin-top: 8px;
+  margin-right: 7px;
+  margin-bottom: 12px;
+  padding: 5px 10.5px;
+}
+#current-button {
+  background-color: #fefaf6;
+  color: black;
+  border: 1px solid #e47911;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+#aside-button {
+  background-color: white;
+  color: black;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  line-height: 20px;
+}
+#aside-button:hover {
+  background-color: #f3f3f3;
+}
+#dashed-button {
+  background-color: white;
+  color: #d0d0d0;
+  border: 1px dashed #c0c0c0;
+  font-size: 14px;
+  line-height: 20px;
+}
+#dashed-button:hover {
+  background-color: white;
+  color: black;
+}
+.specifications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 350px;
+  gap: 6px 5px;
+  margin-bottom: 8px;
+}
+.left-text-grid {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.right-text-grid {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.about-item {
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: 5px;
+}
+.about-item h1 {
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 4px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-rendering: optimizelegibility;
+}
+.about-item ul {
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 4px;
+  margin-left: 18px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.about-item ul li {
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-type: disc;
+  overflow-wrap: break-word;
+}
+.caretnext {
+  box-sizing: border-box;
+  color: rgb(204, 102, 0);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 16.8px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 4px;
+  margin-right: 1px;
+  text-decoration-color: rgb(204, 102, 0);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+}
+#seeMoreDetailsLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c7511f;
+}
+.see-more {
+  margin-bottom: 20px;
+}
+.similar-item {
+  margin-top: 12px;
+  margin-bottom: 29px;
+}
+.plug-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+.plug-text > span {
+  font-weight: 700;
+}
+.similar-item h4 {
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.similar-item-element {
+  display: flex;
+}
+.title-and-rating {
+  display: flex;
+  flex-direction: column;
+}
+.rating-stars {
+  height: 18px;
+  display: flex;
+  gap: 4px;
+}
+.rating-stars i {
+  transform: translateY(1px);
+}
+.price-and-count {
+  padding-top: 2px;
+}
+.price-and-count .a-size-base {
+  font-size: 14px;
+  line-height: 20px;
+}
+.price-and-count .a-color-price {
+  color: rgb(177, 39, 4);
+}
+.climate-text {
+  margin-top: 2px;
+  height: 18px;
+  display: flex;
+  gap: 3px;
+  color: rgb(22, 131, 66);
+  font-size: 14px;
+  line-height: 20px;
+}
+.climate-text > span {
+  transform: translateY(-1px);
+}
 .cat-name {
   box-sizing: border-box;
   color: rgb(0, 113, 133);
@@ -345,6 +531,7 @@ main {
   position: sticky;
   top: 4px;
   width: 34.5%;
+  transform: translateX(3px);
 }
 .image-block {
   margin-bottom: 22px;
@@ -355,6 +542,7 @@ main {
 .left_grid {
   width: 42px;
   padding-top: 4.5px;
+  transform: translateX(-2px);
   /* overflow: visible; */
 }
 .grid-img {
@@ -363,6 +551,28 @@ main {
   margin-bottom: 10px;
   outline: 1px solid #a2a6ac;
   border-radius: 1px;
+}
+.grid-img:first-child {
+  background-image: url(https://m.media-amazon.com/images/I/51OpXtWV5zL._AC_US40_.jpg);
+}
+.grid-img:nth-child(2) {
+  background-image: url(https://m.media-amazon.com/images/I/51fuHDmMZ-L._AC_US40_.jpg);
+}
+.grid-img:nth-child(3) {
+  background-image: url(https://m.media-amazon.com/images/I/51WuT5As98L._AC_US40_.jpg);
+}
+.grid-img:nth-child(4) {
+  background-image: url(https://m.media-amazon.com/images/I/51OuxSDVxFL._AC_US40_.jpg);
+}
+.grid-img:nth-child(5) {
+  background-image: url(../../assets/vid-pic.png);
+}
+.vid-six {
+  transform: translateY(-7px);
+  color: rgb(86, 89, 89);
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 16px;
 }
 .grid-img:hover {
   outline: 1px solid #e77600;
@@ -1152,4 +1362,21 @@ a:hover,
   top: 1px;
   vertical-align: top;
   width: 17px;
+}
+#centerCol a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c7511f;
+}
+
+.badge-link:hover {
+  text-decoration: none !important;
+}
+.import-fees a:hover {
+  text-decoration: none !important;
+}
+.cat-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c7511f;
 }
