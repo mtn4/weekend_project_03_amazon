@@ -44,3 +44,6 @@ body {
 /* main {
   font-size: 30px;
 } */
+.mobile-navbar {
+  display: none;
+}

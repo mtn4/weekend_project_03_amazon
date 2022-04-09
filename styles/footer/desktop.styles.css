@@ -102,6 +102,7 @@ footer hr {
 }
 footer .a-checkbox {
   overflow-wrap: break-word;
+  padding-left: 10px;
 }
 ._p13n-desktop-sims-fbt_fbt-desktop_item-details-per-asin__3DtF1 {
   box-sizing: border-box;
@@ -171,4 +172,285 @@ footer .a-color-base {
 }
 .margin-hr {
   margin-bottom: 28px;
+}
+.four-stars {
+  width: 100%;
+}
+.four-stars h2 {
+  box-sizing: border-box;
+  color: rgb(204, 102, 0);
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 0px;
+  padding-bottom: 3px;
+  text-rendering: optimizelegibility;
+}
+.carousel-area {
+  height: 308px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.a-carousel-goto-prevpage {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  border-bottom-color: rgb(213, 217, 217);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(213, 217, 217);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(213, 217, 217);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(213, 217, 217);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0px 2px 5px 0px;
+  box-sizing: border-box;
+  color: rgb(0, 113, 133);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 39px;
+  line-height: 20px;
+  margin-top: -16px;
+}
+.a-carousel-goto-nextpage {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  border-bottom-color: rgb(213, 217, 217);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(213, 217, 217);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(213, 217, 217);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(213, 217, 217);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0px 2px 5px 0px;
+  box-sizing: border-box;
+  color: rgb(0, 113, 133);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 39px;
+  line-height: 20px;
+  margin-top: -16px;
+}
+
+.carousel-area .a-button-inner {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat: repeat;
+  background-size: auto;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(199, 81, 31);
+  cursor: pointer;
+  display: block;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  height: 37px;
+  line-height: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  position: relative;
+  text-align: center;
+  visibility: visible;
+}
+.a-icon-previous {
+  background-image: url("https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png");
+  background-position-x: -123px;
+  background-position-y: -7px;
+  background-repeat: no-repeat;
+  background-size: 400px 900px;
+  box-sizing: border-box;
+  color: rgb(199, 81, 31);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  height: 15px;
+  line-height: 0px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 6px;
+  margin-top: 5px;
+  text-align: center;
+  vertical-align: top;
+  visibility: visible;
+  width: 11px;
+}
+.a-icon-next {
+  background-image: url("https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png");
+  background-position-x: -105px;
+  background-position-y: -7px;
+  background-repeat: no-repeat;
+  background-size: 400px 900px;
+  box-sizing: border-box;
+  color: rgb(0, 113, 133);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  height: 15px;
+  line-height: 0px;
+  margin-bottom: 5px;
+  margin-left: 6px;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: center;
+  vertical-align: top;
+  visibility: visible;
+  width: 11px;
+}
+.carousel-items-area {
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  height: 308px;
+  letter-spacing: -4px;
+  line-height: 20px;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  overflow-x: visible;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  white-space: nowrap;
+}
+.a-carousel-card {
+  box-sizing: border-box;
+  color: rgb(15, 17, 17);
+  display: inline-block;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-left: 33px;
+  margin-right: 0px;
+  margin-top: 0px;
+  min-height: 100%;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  width: 160px;
+}
+.a-icon-prime {
+  background-image: url("https://m.media-amazon.com/images/S/sash/E6vgqiIirWgGb3f.png");
+  background-position-x: -138px;
+  background-position-y: -73px;
+  background-repeat: no-repeat;
+  background-size: 512px 256px;
+  box-sizing: border-box;
+  color: rgb(0, 113, 133);
+  display: inline-block;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  height: 12px;
+  letter-spacing: normal;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  overflow-wrap: break-word;
+  text-align: left;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  width: 42px;
+}
+.couponLabel {
+  background-color: rgb(127, 218, 106);
+  box-sizing: border-box;
+  color: rgb(17, 17, 17);
+  cursor: pointer;
+  font-family: AmazonEmber, "Amazon Ember", Arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  overflow-wrap: break-word;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  text-align: left;
+  text-transform: none;
+  white-space: normal;
+}
+.top-flex-area {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.right-side-car-text {
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 6px;
+}
+.a-dynamic-image {
+  transform: translateY(4px);
 }
