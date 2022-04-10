@@ -193,7 +193,7 @@ footer .a-color-base {
   align-items: center;
   margin-bottom: 18px;
 }
-.a-carousel-goto-prevpage {
+.carousel-left-button {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgb(255, 255, 255);
@@ -229,7 +229,7 @@ footer .a-color-base {
   line-height: 20px;
   margin-top: -16px;
 }
-.a-carousel-goto-nextpage {
+.carousel-right-button {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgb(255, 255, 255);
@@ -453,4 +453,7 @@ footer .a-color-base {
 }
 .a-dynamic-image {
   transform: translateY(4px);
+}
+.slide {
+  width: 100%;
 }
