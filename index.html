@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <link
       rel="stylesheet"
@@ -730,14 +731,14 @@
             <div class="image-block">
               <div class="left_grid">
                 <div class="grid-img"></div>
-                <div class="grid-img"></div>
-                <div class="grid-img"></div>
-                <div class="grid-img"></div>
+                <div id="first-hover" class="grid-img"></div>
+                <div id="second-hover" class="grid-img"></div>
+                <div id="third-hover" class="grid-img"></div>
                 <div class="grid-img"></div>
                 <div class="vid-six">6 VIDEOS</div>
               </div>
               <div class="right-pic-area">
-                <div class="current-pic"></div>
+                <div id="current-pic" class="current-pic"></div>
 
                 <!-- <span class="fill-space"></span> -->
                 <div class="below-pic-text">Roll over image to zoom in</div>
@@ -2104,5 +2105,49 @@
       </div>
       <hr />
     </footer>
+    <script type="text/javascript" language="javascript">
+      $("#first-hover").hover(
+        function () {
+          $("#current-pic").css(
+            "background-image",
+            "url('https://m.media-amazon.com/images/I/916TSNdjrdL._AC_SX466_.jpg')"
+          );
+        },
+        function () {
+          $("#current-pic").css(
+            "background-image",
+            "url('https://m.media-amazon.com/images/I/81wUWVAiWDL._AC_SX466_PIbundle-24,TopRight,0,0_SH20_.jpg')"
+          );
+        }
+      );
+      $("#second-hover").hover(
+        function () {
+          $("#current-pic").css(
+            "background-image",
+            "url('https://m.media-amazon.com/images/I/71BbEHDMGzL._AC_SX466_.jpg')"
+          );
+        },
+        function () {
+          $("#current-pic").css(
+            "background-image",
+            "url('https://m.media-amazon.com/images/I/81wUWVAiWDL._AC_SX466_PIbundle-24,TopRight,0,0_SH20_.jpg')"
+          );
+        }
+      );
+      $("#third-hover").hover(
+        function () {
+          $("#current-pic").css(
+            "background-image",
+            "url('https://m.media-amazon.com/images/I/81jPZnKOhRL._AC_SX466_.jpg')"
+          );
+        },
+        function () {
+          $("#current-pic").css(
+            "background-image",
+            "url('https://m.media-amazon.com/images/I/81wUWVAiWDL._AC_SX466_PIbundle-24,TopRight,0,0_SH20_.jpg')"
+          );
+        }
+      );
+    </script>
   </body>
 </html>
