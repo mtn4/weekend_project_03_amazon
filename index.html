@@ -9,16 +9,8 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
-    <link
-      rel="stylesheet"
-      media="(orientation: landscape)"
-      href="./styles/colors.styles.css"
-    />
-    <link
-      rel="stylesheet"
-      media="(orientation: landscape)"
-      href="./styles/fonts.styles.css"
-    />
+    <link rel="stylesheet" href="./styles/colors.styles.css" />
+    <link rel="stylesheet" href="./styles/fonts.styles.css" />
     <link
       rel="stylesheet"
       media="(orientation: landscape)"
@@ -57,7 +49,319 @@
   </head>
   <body>
     <header>
-      <nav class="mobile-navbar">dasdssd</nav>
+      <nav class="mobile-navbar">
+        <div id="nav-logobar">
+          <div class="nav-left">
+            <a
+              href="javascript: void(0)"
+              id="nav-hamburger-menu"
+              role="button"
+              aria-label="Open Menu"
+              data-csa-c-id="8lj1ae-p6lpzv-c96qr9-vd02ij"
+            >
+              <i class="nav-icon-a11y nav-sprite"></i>
+            </a>
+
+            <script type="text/javascript">
+              var hmenu = document.getElementById("nav-hamburger-menu");
+              hmenu.setAttribute("href", "javascript: void(0)");
+              window.navHamburgerMetricLogger = function () {
+                if (window.ue && window.ue.count) {
+                  var metricName = "Navm:Hmenu:IconClickActionPending";
+                  window.ue.count(metricName, (ue.count(metricName) || 0) + 1);
+                }
+                window.$Nav &&
+                  $Nav.declare(
+                    "navHMenuIconClickedNotReadyTimeStamp",
+                    Date.now()
+                  );
+              };
+              hmenu.addEventListener("click", window.navHamburgerMetricLogger);
+            </script>
+
+            <script type="text/javascript">
+              window.$Nav &&
+                $Nav.declare("hamburgerMenuIconAvailableOnLoad", false);
+            </script>
+
+            <script type="text/javascript">
+              window.navmet.tmp = +new Date();
+            </script>
+            <div id="nav-logo">
+              <a
+                href="/ref=navm_hdr_logo"
+                id="nav-logo-sprites"
+                class="nav-logo-link nav-progressive-attribute"
+                aria-label="Amazon"
+              >
+                <span class="nav-sprite nav-logo-base"></span>
+                <span
+                  id="logo-ext"
+                  class="nav-sprite nav-logo-ext nav-progressive-content"
+                ></span>
+              </a>
+            </div>
+            <script type="text/javascript">
+              window.navmet.push({
+                key: "Logo",
+                end: +new Date(),
+                begin: window.navmet.tmp,
+              });
+            </script>
+          </div>
+          <div class="nav-right">
+            <div id="nav-progressive-greeting" class="nav-progressive-content">
+              <span class="nav-greeting-recognized" id="nav-logobar-greeting">
+                <a href="/gp/aw/ya?ref_=navm_hdr_hello" id="nav-greeting-name">
+                  <b>Matan</b> ›
+                </a>
+              </span>
+            </div>
+
+            <a
+              href="javascript: void(0)"
+              class="nav-a nav-progressive-attribute"
+              id="nav-button-avatar"
+              aria-label="your account"
+            >
+              <i class="nav-icon nav-icon-a11y nav-sprite">your account</i>
+              <script>
+                window.$Nav && $Nav.declare("mobileAccountIconAvailable");
+                var accountMenu = document.getElementById("nav-button-avatar");
+                accountMenu.setAttribute("href", "javascript: void(0)");
+                window.navAccountMenuMetricLogger = function () {
+                  if (window.ue && window.ue.count) {
+                    var metricName = "Navm:AccountMenu:IconClickActionPending";
+                    window.ue.count(
+                      metricName,
+                      (ue.count(metricName) || 0) + 1
+                    );
+                  }
+                };
+                accountMenu.addEventListener(
+                  "click",
+                  window.navAccountMenuMetricLogger
+                );
+              </script>
+            </a>
+
+            <a
+              href="/gp/aw/c?ref_=navm_hdr_cart"
+              aria-label="Cart"
+              class="nav-a"
+              id="nav-button-cart"
+            >
+              <div id="cart-size" class="nav-cart-0 nav-progressive-attribute">
+                <span class="nav-icon nav-sprite">
+                  <span
+                    id="nav-cart-count"
+                    class="nav-cart-count nav-progressive-content"
+                    >0</span
+                  >
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="nav-searchbar-wrapper">
+          <form
+            class="nav-searchbar search-big"
+            action="/gp/aw/s/ref=nb_sb_noss"
+            method="get"
+            role="search"
+            id="nav-search-form"
+            accept-charset="utf-8"
+          >
+            <div class="nav-fill">
+              <div class="nav-search-field">
+                <input
+                  type="text"
+                  class="nav-input nav-progressive-attribute"
+                  placeholder="Search Amazon"
+                  data-aria-clear-label="Clear search keywords"
+                  name="k"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  dir="auto"
+                  value=""
+                  id="nav-search-keywords"
+                />
+                <a
+                  class="nav-icon nav-sprite nav-search-clear"
+                  tabindex="0"
+                  href="javascript:;"
+                  aria-label="Clear search keywords"
+                ></a>
+              </div>
+              <div id="suggestions-template">
+                <div id="suggestions2">
+                  <div class="autocomplete-results-container"></div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-right">
+              <div class="nav-search-submit">
+                <input
+                  type="submit"
+                  class="nav-input"
+                  value="Go"
+                  aria-label="Go"
+                />
+                <i class="nav-icon nav-sprite"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          class="glow-subnav-template glow-mobile-subnav"
+          id="nav-subnav-container"
+        >
+          <div
+            class="a-declarative"
+            data-action="glow-sheet-trigger"
+            id="nav-global-location-slot"
+          >
+            <div class="nav-sprite" id="nav-packard-glow-loc-icon"></div>
+            <div id="glow-ingress-block">
+              <span
+                class="nav-single-line nav-persist-content"
+                id="glow-ingress-single-line"
+              >
+                Deliver to Matan - Nof Hagalil 17
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="mobile-body">
+        <div id="ad">
+          <div class="ad-container">
+            <div class="ad-image-wrapper">
+              <img
+                src="https://m.media-amazon.com/images/I/41XsQVVt12L._AC_SX640_SY100_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="ad-text">
+              <div class="upper-part">
+                100 Pack Magic Sponge Eraser Extra Thick and Long Lasting
+                Melamine Cleaning Sponges in...
+              </div>
+              <div class="lower-part">
+                <span><span class="currency">$</span>29.99 &nbsp</span>
+                <img
+                  src="https://m.media-amazon.com/images/G/01/perc/prime-logo.svg"
+                  alt="Prime"
+                  class="inline-block mt-[1px]"
+                  width="42"
+                  height="12"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="ape_detail_mobile-detail-ilm_mweb_text"
+          style="
+            font-size: 11px;
+            color: #555;
+            text-align: right;
+            margin: 0px 3px 6px 0;
+            height: 20px;
+          "
+        >
+          Sponsored
+        </div>
+        <div class="item-store-rating">
+          <span class="store-name">Visit the Amazon Basics Store</span>
+          <span class="stars-rating">
+            <a
+              id="acrCustomerReviewLink"
+              class="a-link-normal"
+              href="#aw-udpv3-customer-reviews_feature_div"
+            >
+              <i class="a-icon a-icon-star-mini a-star-mini-4-5"></i
+              ><!-- THIS IS TO REMOVE AN UNNECESSARY WHITE SPACE, AUTO-GENERATED FROM A LINE BREAK
+--><span class="a-size-mini cm-cr-review-stars-text-sm">48,404</span>
+              <span
+                id="textReviews"
+                style="
+                  position: absolute;
+                  left: -10000px;
+                  top: auto;
+                  width: 2px;
+                  height: 1px;
+                  overflow: hidden;
+                "
+                >Reviews</span
+              >
+            </a>
+          </span>
+        </div>
+        <div class="item-body">
+          <span id="title" class="a-size-small">
+            Amazon Basics Microfiber Cleaning Cloths, Non-Abrasive, Reusable and
+            Washable - Pack of 24, 12 x16-Inch, Blue, White and Yellow
+          </span>
+          <div class="badge-wrapper new-mobile-atf-zeitgeist-badge">
+            <a
+              class="badge-link"
+              href="/gp/bestsellers/hpc/15524361011/ref=zg_b_bs_15524361011_1"
+              title="Reuseable Cleaning Cloths"
+            >
+              <i class="a-icon a-icon-addon p13n-best-seller-badge"
+                >#1 Best Seller</i
+              >
+              <span class="cat-name">
+                <span class="cat-link">in Reuseable Cleaning Cloths</span>
+              </span>
+            </a>
+          </div>
+          <div class="main-image">
+            <i
+              id="swf-share-icon-mweb"
+              aria-label="Share"
+              class="a-icon iphone"
+              role="presentation"
+            ></i>
+            <img
+              src="https://m.media-amazon.com/images/I/51OpXtWV5zL._AC_SY1000_.jpg"
+              alt=""
+            />
+          </div>
+          <ul class="a-pagination a-dots">
+            <li aria-current="page" class="a-selected"></li>
+            <li class="a-dot-video"></li>
+            <li class="a-dot-dot"></li>
+            <li class="a-dot-dot"></li>
+            <li class="a-dot-dot"></li>
+            <li class="a-dot-video"></li>
+            <li class="a-dot-video"></li>
+          </ul>
+        </div>
+        <div class="break-color"></div>
+        <div class="select-color-section">
+          <div class="current-color">
+            <div class="color-title">Color:</div>
+            <div class="color-type">Blue/White/Yellow</div>
+          </div>
+          <div class="color-picture">
+            <img
+              src="https://m.media-amazon.com/images/I/51WuT5As98L._QL92_SH45_SX120_SY110_CR,0,0,120,110_.jpg"
+              alt=""
+              width="45"
+              height="45"
+            />
+            <i
+              id="dimension-expander-icon-color_name"
+              aria-hidden="true"
+              class="a-icon a-icon-dropdown a-icon-small dimension-expander-icon"
+              role="presentation"
+            ></i>
+          </div>
+        </div>
+      </div>
       <nav class="navbar">
         <div class="navbar-left">
           <div class="navbar-left__logo">

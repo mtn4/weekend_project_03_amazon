@@ -47,3 +47,6 @@ body {
 .mobile-navbar {
   display: none;
 }
+.mobile-body {
+  display: none;
+}
